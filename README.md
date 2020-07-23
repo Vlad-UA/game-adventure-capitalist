@@ -1,10 +1,12 @@
 
-#General information about the project:
+# General information about the project:
 
-###Hosted application
+### Hosted application
 https://vlad-ua.github.io/game-adventure-capitalist/
 
-###Features
+![Alt text](/Vlad-UA/game-adventure-capitalist/blob/master/src/assets/images/main-screen.jpg?raw=true "Main screen")
+
+### Features
 * Buy and upgrade businesses.
 * Make money from a business.
 * Hiring managers, so that money will be made automatically.
@@ -12,14 +14,14 @@ https://vlad-ua.github.io/game-adventure-capitalist/
 Used the Local Storage to store the current game state (saved each second).<br /> 
 When the player returns, the game calculates the offline time and then calculates a received income.
 
-###Used language for development
+### Used language for development
 JavaScript
 
 ### UI
 * React (to speed up of creation was used Create React App https://create-react-app.dev/)
 * CSS styling: CSS in JS (https://styled-components.com/)
 
-###Structure of folders
+### Structure of folders
 * components -- main components of the game. Files started with capital letters contains the visible components (React specific approach).
 * constants
 * hooks —  contains business logic (one business logic in one Hook file). Each component can have its own "hooks" folder with its specific business logic.
@@ -29,19 +31,19 @@ https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfk
 * utils – a collection of utils (moved into one place to reuse in code).
      
 
-###Code Style
+### Code Style
 Used Airbnb rules for the coding style consistent.<br />
 To install auto-check and correction, use EsLint https://eslint.org/ (will be automatically installed by “npm install”).<br />
 To check code style run "lint:show-errors"  (package.json —> "scripts”)
 
 
-###TODO for more stability of game:
+### TODO for more stability of game:
 * convert JavaScript to TypeScript
 * add tests
 
 
 
-##Information related to Create React App:
+## Information related to Create React App:
 
 
 This project was bootstrapped with [Create React Game](https://github.com/facebook/create-react-app).
