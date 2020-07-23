@@ -1,26 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { Game } from './Game';
+import { WelcomeBack } from './components/WelcomeBack/WelcomeBack';
+import { useGameOpenedAfterOffline } from './hooks/useGameOpenedAfterOffline';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+export const App = () => {
+  const [isWelcomeBackClosed, setIsWelcomeBackClosed] = useState(false);
+  const {
+    offlineTime,
+    earnedSum,
+    isGameOpenedAfterOffline,
+  } = useGameOpenedAfterOffline();
 
-export default App;
+  if (isGameOpenedAfterOffline && !isWelcomeBackClosed) {
+    return <WelcomeBack offlineTime={offlineTime} earnedSum={earnedSum} setIsWelcomeBackClosed={setIsWelcomeBackClosed} />;
+  }
+
+  return <Game />;
+};
