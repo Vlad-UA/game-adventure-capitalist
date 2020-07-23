@@ -7,7 +7,7 @@ export const WelcomeBack = ({ setIsWelcomeBackClosed, offlineTime, earnedSum }) 
   <WelcomeBackStyled>
     <h1>Welcome back Capitalist!</h1>
     <p>{`You were offline for ${leftPadZero(offlineTime.hours)}:${leftPadZero(offlineTime.minutes)}:${leftPadZero(offlineTime.seconds)}`}</p>
-    <p>{`You earned ${earnedSum}`}</p>
+    <p>{`You earned $ ${earnedSum}`}</p>
     <ButtonStyled onClick={() => setIsWelcomeBackClosed(true)}>Dandy!</ButtonStyled>
   </WelcomeBackStyled>
 );
