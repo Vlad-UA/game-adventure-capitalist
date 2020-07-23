@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f49a8d17684763203c6cd9808596224f",
+    "revision": "0f7edc56100f73a4af5c8be44d498893",
     "url": "/game-adventure-capitalist/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/game-adventure-capitalist/static/js/2.389967af.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "73eff85137061aafaea4",
-    "url": "/game-adventure-capitalist/static/js/main.abb5e006.chunk.js"
+    "revision": "9e519aa6728dff4fe1e1",
+    "url": "/game-adventure-capitalist/static/js/main.7af6b9c9.chunk.js"
   },
   {
     "revision": "277cf7b9f39b626fc7f5",
