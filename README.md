@@ -4,7 +4,7 @@
 ### Hosted application
 https://vlad-ua.github.io/game-adventure-capitalist/
 
-![Alt text](/Vlad-UA/game-adventure-capitalist/blob/master/src/assets/images/main-screen.jpg?raw=true "Main screen")
+![Main screen](/src/assets/images/main-screen.jpg?raw=true "Main screen")
 
 ### Features
 * Buy and upgrade businesses.
