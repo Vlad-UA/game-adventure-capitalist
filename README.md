@@ -5,6 +5,8 @@
 https://vlad-ua.github.io/game-adventure-capitalist/
 
 ![Main screen](/src/assets/images/main-screen.jpg?raw=true "Main screen")
+![Upgrades](/src/assets/images/upgrades.jpg?raw=true "Upgrades")
+![Managers](/src/assets/images/managers.jpg?raw=true "Managers")
 
 ### Features
 * Buy and upgrade businesses.
@@ -13,6 +15,7 @@ https://vlad-ua.github.io/game-adventure-capitalist/
 * Businesses continue to make progress while you’re away (if you have a manager).<br /> 
 Used the Local Storage to store the current game state (saved each second).<br /> 
 When the player returns, the game calculates the offline time and then calculates a received income.
+![Local Storage](/src/assets/images/local-storage.jpg?raw=true "Local Storage")
 
 ### Used language for development
 JavaScript
@@ -25,11 +28,11 @@ JavaScript
 * components -- main components of the game. Files started with capital letters contains the visible components (React specific approach).
 * constants
 * hooks —  contains business logic (one business logic in one Hook file). Each component can have its own "hooks" folder with its specific business logic.
-* store — Redux store of the game. For debug, you can use Redux DevTools 
-https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd
 * styles — common CSS (For instance: styled button)
 * utils – a collection of utils (moved into one place to reuse in code).
-     
+* store — Redux store of the game. For debug, you can use Redux DevTools 
+https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd
+![Redux store](/src/assets/images/redux-store.jpg?raw=true "Redux store")     
 
 ### Code Style
 Used Airbnb rules for the coding style consistent.<br />
