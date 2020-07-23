@@ -1,11 +1,11 @@
 import React from 'react';
 import { Business } from '../Business/Business';
 
-export const BUSINESS_ID_NEWSPAPER_DELIVERY = 'BUSINESS_ID_NEWSPAPER_DELIVERY';
+export const BUSINESS_NEWSPAPER_DELIVERY = 'BUSINESS_NEWSPAPER_DELIVERY';
 
 export const NewspaperDelivery = () => (
   <Business
-    id={BUSINESS_ID_NEWSPAPER_DELIVERY}
+    id={BUSINESS_NEWSPAPER_DELIVERY}
     name="Newspaper Delivery"
     quantity={0}
     income={10.25}

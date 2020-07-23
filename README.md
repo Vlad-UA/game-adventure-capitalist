@@ -1,3 +1,49 @@
+
+#General information about the project:
+
+###Hosted application
+https://vlad-ua.github.io/game-adventure-capitalist/
+
+###Features
+* Buy and upgrade businesses.
+* Make money from a business.
+* Hiring managers, so that money will be made automatically.
+* Businesses continue to make progress while you’re away (if you have a manager).<br /> 
+Used the Local Storage to store the current game state (saved each second).<br /> 
+When the player returns, the game calculates the offline time and then calculates a received income.
+
+###Used language for development
+JavaScript
+
+### UI
+* React (to speed up of creation was used Create React App https://create-react-app.dev/)
+* CSS styling: CSS in JS (https://styled-components.com/)
+
+###Structure of folders
+* components -- main components of the game. Files started with capital letters contains the visible components (React specific approach).
+* constants
+* hooks —  contains business logic (one business logic in one Hook file). Each component can have its own "hooks" folder with its specific business logic.
+* store — Redux store of the game. For debug, you can use Redux DevTools 
+https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd
+* styles — common CSS (For instance: styled button)
+* utils – a collection of utils (moved into one place to reuse in code).
+     
+
+###Code Style
+Used Airbnb rules for the coding style consistent.<br />
+To install auto-check and correction, use EsLint https://eslint.org/ (will be automatically installed by “npm install”).<br />
+To check code style run "lint:show-errors"  (package.json —> "scripts”)
+
+
+###TODO for more stability of game:
+* convert JavaScript to TypeScript
+* add tests
+
+
+
+##Information related to Create React App:
+
+
 This project was bootstrapped with [Create React Game](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

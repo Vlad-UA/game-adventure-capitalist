@@ -1,11 +1,11 @@
 import React from 'react';
 import { Business } from '../Business/Business';
 
-export const BUSINESS_ID_LEMON = 'BUSINESS_ID_LEMON';
+export const BUSINESS_LEMON = 'BUSINESS_LEMON';
 
 export const Lemon = () => (
   <Business
-    id={BUSINESS_ID_LEMON}
+    id={BUSINESS_LEMON}
     name="Business Lemon"
     quantity={1}
     income={2.15}
