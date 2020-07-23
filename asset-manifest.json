@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/my-game-adventure-capitalist/static/js/main.abb5e006.chunk.js",
+    "main.js.map": "/my-game-adventure-capitalist/static/js/main.abb5e006.chunk.js.map",
+    "runtime-main.js": "/my-game-adventure-capitalist/static/js/runtime-main.a7a2cdc9.js",
+    "runtime-main.js.map": "/my-game-adventure-capitalist/static/js/runtime-main.a7a2cdc9.js.map",
+    "static/js/2.67d978df.chunk.js": "/my-game-adventure-capitalist/static/js/2.67d978df.chunk.js",
+    "static/js/2.67d978df.chunk.js.map": "/my-game-adventure-capitalist/static/js/2.67d978df.chunk.js.map",
+    "index.html": "/my-game-adventure-capitalist/index.html",
+    "precache-manifest.433982c045eea934cfda8dcae9ac6f4e.js": "/my-game-adventure-capitalist/precache-manifest.433982c045eea934cfda8dcae9ac6f4e.js",
+    "service-worker.js": "/my-game-adventure-capitalist/service-worker.js",
+    "static/js/2.67d978df.chunk.js.LICENSE.txt": "/my-game-adventure-capitalist/static/js/2.67d978df.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7a2cdc9.js",
+    "static/js/2.67d978df.chunk.js",
+    "static/js/main.abb5e006.chunk.js"
+  ]
+}
