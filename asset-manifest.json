@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/my-game-adventure-capitalist/static/js/main.abb5e006.chunk.js",
-    "main.js.map": "/my-game-adventure-capitalist/static/js/main.abb5e006.chunk.js.map",
-    "runtime-main.js": "/my-game-adventure-capitalist/static/js/runtime-main.a7a2cdc9.js",
-    "runtime-main.js.map": "/my-game-adventure-capitalist/static/js/runtime-main.a7a2cdc9.js.map",
-    "static/js/2.67d978df.chunk.js": "/my-game-adventure-capitalist/static/js/2.67d978df.chunk.js",
-    "static/js/2.67d978df.chunk.js.map": "/my-game-adventure-capitalist/static/js/2.67d978df.chunk.js.map",
-    "index.html": "/my-game-adventure-capitalist/index.html",
-    "precache-manifest.433982c045eea934cfda8dcae9ac6f4e.js": "/my-game-adventure-capitalist/precache-manifest.433982c045eea934cfda8dcae9ac6f4e.js",
-    "service-worker.js": "/my-game-adventure-capitalist/service-worker.js",
-    "static/js/2.67d978df.chunk.js.LICENSE.txt": "/my-game-adventure-capitalist/static/js/2.67d978df.chunk.js.LICENSE.txt"
+    "main.js": "/game-adventure-capitalist/static/js/main.abb5e006.chunk.js",
+    "main.js.map": "/game-adventure-capitalist/static/js/main.abb5e006.chunk.js.map",
+    "runtime-main.js": "/game-adventure-capitalist/static/js/runtime-main.c91eb6dc.js",
+    "runtime-main.js.map": "/game-adventure-capitalist/static/js/runtime-main.c91eb6dc.js.map",
+    "static/js/2.389967af.chunk.js": "/game-adventure-capitalist/static/js/2.389967af.chunk.js",
+    "static/js/2.389967af.chunk.js.map": "/game-adventure-capitalist/static/js/2.389967af.chunk.js.map",
+    "index.html": "/game-adventure-capitalist/index.html",
+    "precache-manifest.a3ce1bbe4aa71261d0bd0d312eb3dda3.js": "/game-adventure-capitalist/precache-manifest.a3ce1bbe4aa71261d0bd0d312eb3dda3.js",
+    "service-worker.js": "/game-adventure-capitalist/service-worker.js",
+    "static/js/2.389967af.chunk.js.LICENSE.txt": "/game-adventure-capitalist/static/js/2.389967af.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a7a2cdc9.js",
-    "static/js/2.67d978df.chunk.js",
+    "static/js/runtime-main.c91eb6dc.js",
+    "static/js/2.389967af.chunk.js",
     "static/js/main.abb5e006.chunk.js"
   ]
 }
