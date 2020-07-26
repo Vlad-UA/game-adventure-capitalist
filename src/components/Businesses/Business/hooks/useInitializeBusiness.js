@@ -7,10 +7,10 @@ export const useInitializeBusiness = ({
   id, name, quantity, income, progressCycleDuration, purchasePrice,
 }) => {
   const dispatch = useDispatch();
-  const business = useSelector((state) => state.businesses);
+  const isBusinessInitialised = !!useSelector((state) => state.businesses[id]);
 
   useEffect(() => {
-    if (!business[id]) {
+    if (!isBusinessInitialised) {
       const durationMilliseconds = (
         progressCycleDuration.hours * MINUTES_IN_HOUR * SECONDS_IN_MINUTE
           + progressCycleDuration.minutes * SECONDS_IN_MINUTE
@@ -29,7 +29,7 @@ export const useInitializeBusiness = ({
         },
       });
     }
-  }, [id, name, quantity, income, progressCycleDuration, purchasePrice, dispatch, business]);
+  }, [id, name, quantity, income, progressCycleDuration, purchasePrice, dispatch, isBusinessInitialised]);
 
   return { businessID: id };
 };
