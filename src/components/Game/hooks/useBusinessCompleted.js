@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { BUSINESS_COMPLETED, START_BUSINESS } from '../store/reducers/businesses';
-import { SET_MONEY_AMOUNT } from '../store/reducers/playerMoney';
-import { roundToCent } from '../utils/number';
+import { BUSINESS_COMPLETED, START_BUSINESS } from '../../../store/reducers/businesses';
+import { SET_MONEY_AMOUNT } from '../../../store/reducers/playerMoney';
+import { roundToCent } from '../../../utils/number';
 
 export const useBusinessCompleted = () => {
   const businesses = useSelector((state) => state.businesses);

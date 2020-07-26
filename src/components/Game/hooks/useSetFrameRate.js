@@ -1,7 +1,7 @@
 import { useDispatch } from 'react-redux';
 import { useEffect } from 'react';
-import { SET_GAME_TIME } from '../store/reducers/gameTimer';
-import { FRAMES_PER_SECOND } from '../constants';
+import { SET_GAME_TIME } from '../../../store/reducers/gameTimer';
+import { FRAMES_PER_SECOND } from '../../../constants';
 
 export const useSetFrameRate = () => {
   const dispatch = useDispatch();

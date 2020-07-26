@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Businesses } from './components/Businesses/Businesses';
+import { Businesses } from '../Businesses/Businesses';
 import { useSetFrameRate } from './hooks/useSetFrameRate';
 import { useBusinessCompleted } from './hooks/useBusinessCompleted';
-import { Menu } from './components/Menu/Menu';
+import { Menu } from '../Menu/Menu';
 
 export const Game = () => {
   useSetFrameRate();

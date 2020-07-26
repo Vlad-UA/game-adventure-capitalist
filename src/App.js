@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Game } from './Game';
+import { Game } from './components/Game/Game';
 import { WelcomeBack } from './components/WelcomeBack/WelcomeBack';
 import { useGameOpenedAfterOffline } from './hooks/useGameOpenedAfterOffline';
 
