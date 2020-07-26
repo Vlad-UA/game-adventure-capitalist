@@ -3,7 +3,7 @@ import { Business } from '../Business/Business';
 
 export const BUSINESS_NEWSPAPER_DELIVERY = 'BUSINESS_NEWSPAPER_DELIVERY';
 
-export const NewspaperDelivery = () => (
+export const NewspaperDelivery = React.memo(() => (
   <Business
     id={BUSINESS_NEWSPAPER_DELIVERY}
     name="Newspaper Delivery"
@@ -12,4 +12,4 @@ export const NewspaperDelivery = () => (
     progressCycleDuration={{ hours: 0, minutes: 0, seconds: 3 }}
     purchasePrice={{ current: 60.00, increaseStep: 10.33 }}
   />
-);
+));

@@ -3,7 +3,7 @@ import { Business } from '../Business/Business';
 
 export const BUSINESS_CAR_WASH = 'BUSINESS_CAR_WASH';
 
-export const CarWash = () => (
+export const CarWash = React.memo(() => (
   <Business
     id={BUSINESS_CAR_WASH}
     name="Car Wash"
@@ -12,4 +12,6 @@ export const CarWash = () => (
     progressCycleDuration={{ hours: 0, minutes: 0, seconds: 10 }}
     purchasePrice={{ current: 170.00, increaseStep: 30.83 }}
   />
-);
+));
+
+CarWash.displayName = 'CarWash';
