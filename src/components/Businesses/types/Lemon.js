@@ -13,3 +13,5 @@ export const Lemon = React.memo(() => (
     purchasePrice={{ current: 10.00, increaseStep: 0.03 }}
   />
 ));
+
+Lemon.displayName = 'Lemon';

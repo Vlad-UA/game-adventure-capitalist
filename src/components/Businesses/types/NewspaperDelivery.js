@@ -13,3 +13,5 @@ export const NewspaperDelivery = React.memo(() => (
     purchasePrice={{ current: 60.00, increaseStep: 10.33 }}
   />
 ));
+
+NewspaperDelivery.displayName = 'NewspaperDelivery';
